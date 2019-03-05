@@ -1,0 +1,20 @@
+{% set index = true %}
+{% set title = "Index page" %}
+
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+<div class="slider">
+  <div class="slider__list">
+    <div class="slider__track">
+      {% for i in range(0, 5) %}
+      <div class="slider__item">
+        <img src="img/1.jpg" alt="">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}

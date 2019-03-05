@@ -1,0 +1,45 @@
+body {
+	height: 100%;
+	font-size: 16px;
+	line-height: 1.375;
+	font-family: $font;
+	color: $textDark;
+	font-weight: normal;
+	cursor: default;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+.wrapper {
+  min-width: 320px;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+   flex: 1 0 auto;
+   position: relative;
+}
+
+.footer {
+   flex: 0 0 auto;
+   position: relative;
+}
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+}
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	position: relative;
+}

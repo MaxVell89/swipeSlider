@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    max-width: $contrainer + $fields*2;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include xl-block {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    @include md-block {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    @include sm-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

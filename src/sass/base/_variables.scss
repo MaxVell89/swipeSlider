@@ -1,0 +1,53 @@
+// colors
+$textDark: #000000;
+$textWhite: #fff;
+$accent: #ffc600;
+$accentHover: #f7b400;
+$grey: #222222;
+$linkColor: blue;
+
+// fonts
+$notoSans: 'Noto Sans', sans-serif;
+$philo: 'Philosopher', sans-serif;
+$ptSerif: 'PT Serif', serif;
+$font: $notoSans;
+
+// grid and responsive
+$contrainer: 1650px;
+$columns: 12;
+$offset: 30px;
+$offset_one_side: ($offset / 2);
+$fields: 100px; //если поля другой ширины
+
+$break_xl: 1640px;
+$break_lg: 1365px;
+$break_md: 1023px;
+$break_sm: 767px;
+$break_xs: 575px;
+$break_xxs: 449px;
+
+$col-1-12: percentage(1/12);
+$col-2-12: percentage(2/12);
+$col-3-12: percentage(3/12);
+$col-4-12: percentage(4/12);
+$col-5-12: percentage(5/12);
+$col-6-12: percentage(6/12);
+$col-7-12: percentage(7/12);
+$col-8-12: percentage(8/12);
+$col-9-12: percentage(9/12);
+$col-10-12: percentage(10/12);
+$col-11-12: percentage(11/12);
+$col-12-12: percentage(12/12);
+
+$col-1-12-offset: #{calc(#{$col-1-12} - #{$offset})};
+$col-2-12-offset: #{calc(#{$col-2-12} - #{$offset})};
+$col-3-12-offset: #{calc(#{$col-3-12} - #{$offset})};
+$col-4-12-offset: #{calc(#{$col-4-12} - #{$offset})};
+$col-5-12-offset: #{calc(#{$col-5-12} - #{$offset})};
+$col-6-12-offset: #{calc(#{$col-6-12} - #{$offset})};
+$col-7-12-offset: #{calc(#{$col-7-12} - #{$offset})};
+$col-8-12-offset: #{calc(#{$col-8-12} - #{$offset})};
+$col-9-12-offset: #{calc(#{$col-9-12} - #{$offset})};
+$col-10-12-offset: #{calc(#{$col-10-12} - #{$offset})};
+$col-11-12-offset: #{calc(#{$col-11-12} - #{$offset})};
+$col-12-12-offset: #{calc(#{$col-12-12} - #{$offset})};

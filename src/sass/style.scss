@@ -1,0 +1,34 @@
+// LIBS
+//@import 'normalize.css/normalize';
+//@import 'slick-carousel/slick/slick.scss';
+
+// VARIABLES AND MIXINS
+@import './base/variables';
+@import './base/mixins';
+
+// DEFAULTS
+@import './base/fonts';
+@import './base/normalize';
+@import './base/common';
+@import './base/helpers';
+@import './base/grid';
+@import './base/typography';
+
+// GENERATED
+@import './generated/sprite-svg';
+
+// BLOCKS
+@import './blocks/btn';
+@import './blocks/modal';
+@import './blocks/form';
+@import './blocks/header';
+@import './blocks/footer';
+
+@import './main';
+
+
+
+
+
+
+

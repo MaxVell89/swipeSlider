@@ -1,0 +1,21 @@
+{% import "partials/_mixins.html" as mixins %}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% if title %}{{ title }}{% else %}Template{% endif %}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|PT+Serif:700|Philosopher:700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="css/style.css">
+    {# {% include "partials/_media-tags.html" %} #}
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+      <!-- BEGIN content -->
+      {% block content %}{% endblock %}
+      <!-- END content -->
+  </body>
+</html>
